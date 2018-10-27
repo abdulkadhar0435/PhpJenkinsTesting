@@ -13,7 +13,7 @@
 
 <?php
 if(isset($_POST['SubmitButton'])){ 
-  $firstval = $_POST['firstval']; 
+  $firstval = $_POST['firstval1']; 
   $secondval = $_POST['secondval']; 
  echo $total = $firstval + $secondval;
   $message = "Success! Total: ".$total;
